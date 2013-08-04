@@ -1,4 +1,3 @@
-
 # container-el
 
 Use this singleton container element before the DOM is ready.
@@ -37,6 +36,12 @@ npm install container-el
 
 Then bundle for the browser with
 [browserify](https://github.com/substack/node-browserify).
+
+With [component](https://github.com/component/component) do:
+
+```bash
+component install juliangruber/container-el
+```
 
 ## License
 
