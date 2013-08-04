@@ -1,0 +1,16 @@
+{
+  "name": "container-el",
+  "repo": "juliangruber/container-el",
+  "description": "A container element.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "ded/domready": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
