@@ -9,9 +9,10 @@ When the page is loaded, the container will be appended to `<body>`.
 ```js
 var container = require('container-el');
 
-var myDiv = document.createElement('div');
-myDiv.className = 'my-div';
-container.appendChild(myDiv);
+var el = document.createElement('div');
+el.className = 'has-class';
+
+container.appendChild(el);
 ```
 
 When the dom is ready, you'll have this:
@@ -20,7 +21,7 @@ When the dom is ready, you'll have this:
 <!-- ... -->
 <body>
   <div id="container">
-    <div class="my-div"></div>
+    <div class="has-class"></div>
   </div>
 </body>
 <!-- ... -->
