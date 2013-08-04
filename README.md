@@ -2,6 +2,7 @@
 # container-el
 
 Use this singleton container element before the DOM is ready.
+
 When the page is loaded, the container will be appended to `<body>`.
 
 ## Usage
