@@ -15,7 +15,7 @@
     "domready": "~1.0.8"
   },
   "devDependencies": {
-    "tape": "*"
+    "tape": ">=4.6.3"
   },
   "keywords": [
     "container",
